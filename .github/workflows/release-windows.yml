@@ -1,5 +1,8 @@
 name: Release Windows
 
+on:
+  push
+
 jobs:
   localize:
     uses: ./.github/workflows/shared-steps.yml
